@@ -1,4 +1,0 @@
-User-agent: *
-Allow: /
-
-Sitemap: https://www.floreriamarialidia.com.ar/sitemap.xml
