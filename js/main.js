@@ -25,6 +25,7 @@ const header = document.getElementById("header");
   // SERVICES CAROUSEL — mobile only (max-width: 768px)
   (function() {
     var IDX = 0, TOTAL = 6, TIMER = null, SX = 0;
+    var REDUCED = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
 
     function slide() {
       var track = document.getElementById('scTrack');
@@ -44,7 +45,8 @@ const header = document.getElementById("header");
     function goTo(n) { IDX = (n % TOTAL + TOTAL) % TOTAL; slide(); }
     function next()  { goTo(IDX + 1); }
     function prev()  { goTo(IDX - 1); }
-    function auto()  { clearInterval(TIMER); TIMER = setInterval(next, 4000); }
+    function stop()  { clearInterval(TIMER); TIMER = null; }
+    function auto()  { stop(); if (REDUCED) return; TIMER = setInterval(next, 4000); }
 
     function init() {
       if (window.innerWidth > 768) return;
@@ -68,11 +70,18 @@ const header = document.getElementById("header");
       if (bp) bp.onclick = function() { prev(); auto(); };
       if (bn) bn.onclick = function() { next(); auto(); };
 
-      track.addEventListener('touchstart', function(e) { SX = e.touches[0].clientX; }, { passive: true });
+      // WCAG 2.2.2: el movimiento se pausa mientras la persona interactúa
+      track.addEventListener('touchstart', function(e) { stop(); SX = e.touches[0].clientX; }, { passive: true });
       track.addEventListener('touchend', function(e) {
         var d = SX - e.changedTouches[0].clientX;
-        if (Math.abs(d) > 40) { d > 0 ? next() : prev(); auto(); }
+        if (Math.abs(d) > 40) { d > 0 ? next() : prev(); }
+        auto();
       }, { passive: true });
+
+      // Pausar tambien cuando la pestaña queda en segundo plano
+      document.addEventListener('visibilitychange', function() {
+        document.hidden ? stop() : auto();
+      });
 
       goTo(0);
       auto();

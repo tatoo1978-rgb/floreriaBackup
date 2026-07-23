@@ -15,7 +15,7 @@
   if (!grid || !filters) return;
 
   /* ── Carga del catálogo ── */
-  fetch("js/catalogo.json?v=3")
+  fetch("js/catalogo.json?v=10")
     .then(function (r) {
       if (!r.ok) throw new Error("No se pudo cargar catalogo.json");
       return r.json();
@@ -47,7 +47,7 @@
       card.className = "product-card reveal reveal-delay-" + ((i % 3) + 1);
       card.innerHTML =
         '<div class="product-media" role="button" tabindex="0" aria-label="Ampliar imagen de ' + p.name + '">' +
-          '<img src="' + p.img + '" alt="' + p.alt + '" loading="lazy">' +
+          '<img src="' + p.imgs[0] + '" alt="' + p.alt + '" loading="lazy">' +
         "</div>" +
         '<div class="product-info">' +
           '<span class="product-cat">' + CATEGORIAS[p.cat] + "</span>" +
@@ -88,10 +88,22 @@
       filters.appendChild(b);
     });
 
-    /* ── Ampliar foto: SOLO la imagen de esa tarjeta (sin carrusel) ── */
+    /* ── Ampliar foto: recorre SOLO las fotos de ESE producto ──
+       (si el producto tiene una sola foto, se muestra sin flechas) */
     function openSingle(media) {
       if (typeof window.__mlLightboxOpen !== "function") return;
-      window.__mlLightboxOpen(0, [media.querySelector("img")]);
+      var card = media.closest(".product-card");
+      var name = card.querySelector(".product-name").textContent;
+      var prod = PRODUCTOS.filter(function (p) { return p.name === name; })[0];
+      var alt  = prod ? prod.alt : "";
+      var list = (prod ? prod.imgs : []).map(function (src) {
+        var im = new Image();
+        im.src = src;
+        im.alt = alt;
+        return im;
+      });
+      if (!list.length) list = [media.querySelector("img")];
+      window.__mlLightboxOpen(0, list);
     }
     grid.addEventListener("click", function (e) {
       var media = e.target.closest(".product-media");
