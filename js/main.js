@@ -8,7 +8,7 @@ const header = document.getElementById("header");
   const closeMobileNav = () => { mobileNav.classList.remove("open"); hamburger.setAttribute("aria-expanded","false"); document.body.style.overflow=""; };
   hamburger.addEventListener("click", () => { mobileNav.classList.add("open"); hamburger.setAttribute("aria-expanded","true"); document.body.style.overflow="hidden"; });
   mobileClose.addEventListener("click", closeMobileNav);
-  mobileNav.querySelectorAll(".mobile-link").forEach(l => l.addEventListener("click", closeMobileNav));
+  mobileNav.querySelectorAll("a").forEach(l => l.addEventListener("click", closeMobileNav));
   const observer = new IntersectionObserver(entries => { entries.forEach(e => { if(e.isIntersecting){ e.target.classList.add("visible"); observer.unobserve(e.target); } }); }, {threshold:0.12,rootMargin:"0px 0px -40px 0px"});
   document.querySelectorAll(".reveal").forEach(el => observer.observe(el));
   document.querySelectorAll(".faq-question").forEach(btn => {
