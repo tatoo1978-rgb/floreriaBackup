@@ -226,3 +226,14 @@ const header = document.getElementById("header");
   mo.observe(lb,{attributes:true,attributeFilter:['class']});
 })();
 
+
+/* Submenú "Productos" del menú móvil */
+(function(){
+  var t = document.getElementById('mobileProdToggle');
+  var s = document.getElementById('mobileProdSub');
+  if (!t || !s) return;
+  t.addEventListener('click', function(){
+    var open = s.classList.toggle('open');
+    t.setAttribute('aria-expanded', open ? 'true' : 'false');
+  });
+})();

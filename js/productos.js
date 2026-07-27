@@ -15,7 +15,7 @@
   if (!grid || !filters) return;
 
   /* ── Carga del catálogo ── */
-  fetch("js/catalogo.json?v=10")
+  fetch("js/catalogo.json?v=22")
     .then(function (r) {
       if (!r.ok) throw new Error("No se pudo cargar catalogo.json");
       return r.json();
@@ -74,18 +74,34 @@
 
     /* ── Filtros ── */
     var cats = [["todos", "Todos"]].concat(Object.keys(CATEGORIAS).map(function (k) { return [k, CATEGORIAS[k]]; }));
-    cats.forEach(function (c, i) {
+    // categoría inicial: hash de la URL (ej. productos.html#deco) o "todos"
+    var inicial = (location.hash || "").replace("#", "");
+    if (!CATEGORIAS[inicial]) inicial = "todos";
+    cats.forEach(function (c) {
       var b = document.createElement("button");
-      b.className = "prod-pill" + (i === 0 ? " active" : "");
+      b.className = "prod-pill";
       b.textContent = c[1];
-      b.setAttribute("aria-pressed", i === 0 ? "true" : "false");
-      b.addEventListener("click", function () {
-        filters.querySelectorAll(".prod-pill").forEach(function (p) { p.classList.remove("active"); p.setAttribute("aria-pressed", "false"); });
-        b.classList.add("active");
-        b.setAttribute("aria-pressed", "true");
-        render(c[0]);
-      });
+      b.setAttribute("data-cat", c[0]);
+      b.setAttribute("aria-pressed", "false");
+      b.addEventListener("click", function () { aplicar(c[0]); });
       filters.appendChild(b);
+    });
+
+    /* Activa una categoría: marca la píldora y vuelve a dibujar la grilla */
+    function aplicar(cat, scroll) {
+      if (cat !== "todos" && !CATEGORIAS[cat]) cat = "todos";
+      filters.querySelectorAll(".prod-pill").forEach(function (p) {
+        var on = p.getAttribute("data-cat") === cat;
+        p.classList.toggle("active", on);
+        p.setAttribute("aria-pressed", on ? "true" : "false");
+      });
+      render(cat);
+      if (scroll) window.scrollTo({ top: filters.getBoundingClientRect().top + window.pageYOffset - 110, behavior: "smooth" });
+    }
+
+    /* Navegación desde el menú desplegable (productos.html#deco) */
+    window.addEventListener("hashchange", function () {
+      aplicar((location.hash || "").replace("#", ""), true);
     });
 
     /* ── Ampliar foto: recorre SOLO las fotos de ESE producto ──
@@ -117,6 +133,6 @@
       openSingle(media);
     });
 
-    render("todos");
+    aplicar(inicial);
   }
 })();

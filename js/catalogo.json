@@ -6,193 +6,237 @@
     "plantas": "Plantas & Macetas",
     "deco": "Deco & Aromas",
     "eventos": "Casamientos & Eventos",
-    "condolencias": "Recordatorios & Condolencias",
+    "condolencias": "Condolencias & Memoriales",
     "empresas": "Empresariales"
   },
   "productos": [
     {
       "cat": "ramos",
-      "name": "Ramo Multicolor de Estación",
-      "desc": "Flores frescas de estación en una combinación vibrante y alegre.",
-      "alt": "Ramo multicolor de flores de estación — Florería María Lidia Rafaela",
+      "name": "Bouquet de Estación",
+      "desc": "Flores frescas de estación combinadas a mano. Disponible en tamaño grande, mediano y chico.",
       "imgs": [
-        "img/32-ramo-multicolor.webp"
-      ]
-    },
-    {
-      "cat": "ramos",
-      "name": "Ramo de Rosas Rosadas",
-      "desc": "Un clásico romántico y delicado, ideal para aniversarios y cumpleaños.",
-      "alt": "Ramo de rosas rosadas — Florería María Lidia Rafaela",
-      "imgs": [
-        "img/31-ramo-de-rosas-rosadas.webp"
-      ]
-    },
-    {
-      "cat": "ramos",
-      "name": "Ramo Romántico de Rosa Roja",
-      "desc": "Rosa roja envuelta en papel artesanal, perfecta para sorprender.",
-      "alt": "Ramo romántico con rosa roja envuelto en papel — Florería María Lidia Rafaela",
-      "imgs": [
-        "img/23-ramo-con-rosa-roja-envuelto-en-p.webp"
-      ]
-    },
-    {
-      "cat": "ramos",
-      "name": "Ramo de Margaritas Blancas",
-      "desc": "Fresco, simple y luminoso. Para alegrar cualquier día.",
-      "alt": "Ramo de margaritas blancas — Florería María Lidia Rafaela",
-      "imgs": [
+        "img/32-ramo-multicolor.webp",
         "img/22-ramo-de-margaritas-blancas.webp"
-      ]
+      ],
+      "alt": "Bouquet de flores de estación — Florería María Lidia, Rafaela"
     },
     {
       "cat": "ramos",
-      "name": "Ramo de Lisianthus Blancos",
-      "desc": "Elegancia artesanal con lisianthus y flores premium seleccionadas.",
-      "alt": "Ramo artesanal de lisianthus blancos — Florería María Lidia Rafaela",
+      "name": "Bouquets Especiales",
+      "desc": "Diseños XL y composiciones pensadas para fechas especiales y regalos memorables.",
       "imgs": [
-        "img/03-ramo-artesanal-de-lisianthus-bla.webp"
-      ]
+        "img/03-ramo-artesanal-de-lisianthus-bla.webp",
+        "img/29-ramos-artesanales-de-floreria-ma.webp"
+      ],
+      "alt": "Bouquet especial XL de flores — Florería María Lidia, Rafaela"
     },
     {
       "cat": "ramos",
-      "name": "Tulipanes de Estación",
-      "desc": "Tulipanes frescos según temporada. Consultá colores disponibles.",
-      "alt": "Ramo de tulipanes amarillos de estación — Florería María Lidia Rafaela",
+      "name": "Ramos de Rosas",
+      "desc": "Rosas frescas seleccionadas. Por unidad, 3, 6 o 12, envueltas en papel artesanal.",
       "imgs": [
-        "img/33-tulipanes-amarillos.webp"
-      ]
-    },
-    {
-      "cat": "plantas",
-      "name": "Rosas Frescas por Tallo",
-      "desc": "Rosas recién llegadas de productores. Armá tu ramo a medida.",
-      "alt": "Rosas rojas frescas por tallo — Florería María Lidia Rafaela",
-      "imgs": [
+        "img/31-ramo-de-rosas-rosadas.webp",
+        "img/23-ramo-con-rosa-roja-envuelto-en-p.webp",
         "img/20-rosas-rojas-frescas-en-primer-pl.webp"
-      ]
+      ],
+      "alt": "Ramo de rosas — Florería María Lidia, Rafaela"
     },
     {
       "cat": "plantas",
       "name": "Plantas de Interior",
-      "desc": "Ficus lyrata, palmeras y más especies para llenar tu casa de verde.",
-      "alt": "Plantas de interior: ficus lyrata y palmera — Florería María Lidia Rafaela",
+      "desc": "Orquídeas, gomeros, panderetas, arecas y palmeras, calatheas, philodendros, potus y bambúes.",
       "imgs": [
-        "img/18-plantas-de-interior-ficus-lyrata.webp"
-      ]
+        "img/18-plantas-de-interior-ficus-lyrata.webp",
+        "img/28-plantas-de-interior-en-macetas.webp",
+        "img/30-planta-colgante.webp"
+      ],
+      "alt": "Plantas de interior — Florería María Lidia, Rafaela"
     },
     {
       "cat": "plantas",
-      "name": "Plantas en Maceta",
-      "desc": "Variedades decorativas listas para regalar o decorar tu espacio.",
-      "alt": "Plantas decorativas en macetas — Florería María Lidia Rafaela",
+      "name": "Macetas Rotomoldeadas",
+      "desc": "Livianas y resistentes a la intemperie, ideales para exterior y grandes formatos.",
       "imgs": [
         "img/28-plantas-de-interior-en-macetas.webp"
-      ]
+      ],
+      "alt": "Macetas rotomoldeadas — Florería María Lidia, Rafaela"
     },
     {
       "cat": "plantas",
-      "name": "Plantas Colgantes",
-      "desc": "Ideales para balcones, galerías y rincones con luz.",
-      "alt": "Planta colgante de interior — Florería María Lidia Rafaela",
+      "name": "Macetas de Cerámica Esmaltada",
+      "desc": "Terminación brillante en varios colores para sumar carácter a cada rincón.",
       "imgs": [
-        "img/30-planta-colgante.webp"
-      ]
+        "img/08-flores-y-plantas-floreria-maria-.webp"
+      ],
+      "alt": "Macetas de cerámica esmaltada — Florería María Lidia, Rafaela"
+    },
+    {
+      "cat": "plantas",
+      "name": "Macetas de Metal",
+      "desc": "Líneas simples y acabado contemporáneo para espacios de estilo moderno.",
+      "imgs": [
+        "img/14-flores-y-plantas-floreria-maria-.webp"
+      ],
+      "alt": "Macetas de metal — Florería María Lidia, Rafaela"
+    },
+    {
+      "cat": "plantas",
+      "name": "Macetas de Fibra Natural",
+      "desc": "Textura artesanal y calidez natural para plantas de interior.",
+      "imgs": [
+        "img/25-canastos-artesanales-del-local.webp"
+      ],
+      "alt": "Macetas de fibra natural — Florería María Lidia, Rafaela"
     },
     {
       "cat": "deco",
-      "name": "Velas & Home Sprays",
-      "desc": "<strong>Lovely George</strong> es la primera marca argentina de Luxury Candles. Combina diseño, elegancia y alta perfumería para transformar cada ambiente a través de aromas sofisticados e inolvidables.",
-      "alt": "Velas aromáticas y home sprays — Florería María Lidia Rafaela",
+      "name": "Velas Naturales",
+      "desc": "<strong>Lovely George</strong>, la primera marca argentina de Luxury Candles: líneas Pure, Ámbar Caramelo y Campana, con alta perfumería.",
       "imgs": [
         "img/19-velas-y-home-spray-en-el-local.webp",
         "img/velas-01-campana-oro.webp",
         "img/velas-02-campana-blanca.webp",
         "img/velas-03-pure-negra.webp",
         "img/velas-04-pure-blanca.webp"
-      ]
+      ],
+      "alt": "Velas naturales Lovely George — Florería María Lidia, Rafaela"
     },
     {
       "cat": "deco",
-      "name": "Ramo de Flores Secas",
-      "desc": "Tonos cálidos que duran para siempre. Sin mantenimiento.",
-      "alt": "Ramo de flores secas en tonos cálidos — Florería María Lidia Rafaela",
+      "name": "Velas LED",
+      "desc": "La calidez de la llama sin fuego: seguras para cualquier ambiente y de larga duración.",
       "imgs": [
-        "img/24-ramo-de-flores-secas-en-tonos-ca.webp"
-      ]
+        "img/velas-04-pure-blanca.webp"
+      ],
+      "alt": "Velas LED decorativas — Florería María Lidia, Rafaela"
     },
     {
       "cat": "deco",
-      "name": "Canasto de Flores Secas",
-      "desc": "Arreglo decorativo en canasto artesanal, listo para exhibir.",
-      "alt": "Canasto decorativo de flores secas — Florería María Lidia Rafaela",
+      "name": "Difusores de Ambiente",
+      "desc": "Difusores de <strong>Lovely George</strong>: alta perfumería que envuelve el ambiente de forma constante y discreta.",
       "imgs": [
-        "img/35-canasto-de-flores-secas.webp"
-      ]
+        "img/07-deco-y-aromas-para-el-hogar-flor.webp"
+      ],
+      "alt": "Difusores de ambiente — Florería María Lidia, Rafaela"
     },
     {
       "cat": "deco",
-      "name": "Canastos Artesanales",
-      "desc": "Cestería artesanal para decorar, organizar o regalar.",
-      "alt": "Canastos artesanales de decoración — Florería María Lidia Rafaela",
+      "name": "Floreros e Hidroterrarios",
+      "desc": "Piezas de vidrio para lucir tus flores o cultivar plantas en agua.",
       "imgs": [
-        "img/25-canastos-artesanales-del-local.webp"
-      ]
+        "img/17-ramo-de-gerberas-rosas-y-rosas-r.webp"
+      ],
+      "alt": "Floreros e hidroterrarios — Florería María Lidia, Rafaela"
+    },
+    {
+      "cat": "deco",
+      "name": "Fanales",
+      "desc": "Portavelas de vidrio que crean una luz cálida y envolvente.",
+      "imgs": [
+        "img/velas-01-campana-oro.webp"
+      ],
+      "alt": "Fanales decorativos — Florería María Lidia, Rafaela"
+    },
+    {
+      "cat": "deco",
+      "name": "Bandejas / Cerámica",
+      "desc": "Objetos decorativos y utilitarios seleccionados para vestir la mesa y el living.",
+      "imgs": [
+        "img/13-deco-y-aromas-para-el-hogar-flor.webp"
+      ],
+      "alt": "Bandejas y cerámica decorativa — Florería María Lidia, Rafaela"
+    },
+    {
+      "cat": "deco",
+      "name": "Flores Preservadas",
+      "desc": "Belleza natural que dura años, sin agua ni mantenimiento.",
+      "imgs": [
+        "img/24-ramo-de-flores-secas-en-tonos-ca.webp",
+        "img/35-canasto-de-flores-secas.webp",
+        "img/27-ramo-de-flores-secas-en-estanter.webp"
+      ],
+      "alt": "Flores preservadas — Florería María Lidia, Rafaela"
     },
     {
       "cat": "eventos",
-      "name": "Ramo de Novia",
-      "desc": "Diseñado junto a vos para acompañarte en el día más importante.",
-      "alt": "Ramo de novia de flores blancas frescas — Florería María Lidia Rafaela",
+      "name": "Ramos de Novia",
+      "desc": "Diseñados junto a vos, en armonía con el vestido y el estilo de la celebración.",
       "imgs": [
         "img/26-ramo-blanco-de-flores-frescas.webp"
-      ]
+      ],
+      "alt": "Ramo de novia — Florería María Lidia, Rafaela"
     },
     {
       "cat": "eventos",
-      "name": "Decoración Floral para Eventos",
-      "desc": "Centros de mesa, arcos y ambientación integral para tu celebración.",
-      "alt": "Decoración floral para casamientos y eventos — Florería María Lidia Rafaela",
+      "name": "Boutonnière",
+      "desc": "El detalle floral para el novio, padrinos y testigos, a tono con el ramo.",
+      "imgs": [
+        "img/05-casamientos-y-eventos-florales-f.webp"
+      ],
+      "alt": "Boutonnière para casamiento — Florería María Lidia, Rafaela"
+    },
+    {
+      "cat": "eventos",
+      "name": "Ambientación Floral",
+      "desc": "Centros de mesa, arcos y decoración integral para casamientos y eventos.",
       "imgs": [
         "img/11-casamientos-y-eventos-florales-f.webp"
-      ]
+      ],
+      "alt": "Ambientación floral para eventos — Florería María Lidia, Rafaela"
     },
     {
       "cat": "condolencias",
-      "name": "Corona de Condolencias",
-      "desc": "Un homenaje digno y respetuoso, elaborado con delicadeza.",
-      "alt": "Corona de flores para condolencias — Florería María Lidia Rafaela",
-      "imgs": [
-        "img/06-coronas-y-condolencias-floreria-.webp"
-      ]
-    },
-    {
-      "cat": "condolencias",
-      "name": "Palma & Arreglos de Despedida",
-      "desc": "Palmas y arreglos florales para acompañar en momentos difíciles.",
-      "alt": "Palma y arreglos florales de condolencias — Florería María Lidia Rafaela",
+      "name": "Palmas",
+      "desc": "Palmas florales de gran porte para despedidas y homenajes, elaboradas con flores frescas seleccionadas.",
       "imgs": [
         "img/12-coronas-y-condolencias-floreria-.webp"
-      ]
+      ],
+      "alt": "Palma floral para condolencias — Florería María Lidia Rafaela"
+    },
+    {
+      "cat": "condolencias",
+      "name": "Cruces y Corazones",
+      "desc": "Arreglos en forma de cruz o corazón, un homenaje sereno y respetuoso para acompañar el último adiós.",
+      "imgs": [
+        "img/06-coronas-y-condolencias-floreria-.webp"
+      ],
+      "alt": "Cruces y corazones florales para memoriales — Florería María Lidia Rafaela"
+    },
+    {
+      "cat": "condolencias",
+      "name": "Ramos Florales",
+      "desc": "Ramos sobrios en tonos claros para expresar el pésame con delicadeza, tanto en velatorios como en memoriales.",
+      "imgs": [
+        "img/34-ramo-de-rosas-blancas.webp"
+      ],
+      "alt": "Ramo floral blanco para condolencias — Florería María Lidia Rafaela"
     },
     {
       "cat": "empresas",
-      "name": "Arreglos para Recepciones",
-      "desc": "Flores frescas semanales para oficinas, comercios y recepciones.",
-      "alt": "Arreglos florales empresariales para recepciones — Florería María Lidia Rafaela",
+      "name": "Inauguraciones",
+      "desc": "Arreglos de gran porte para acompañar la apertura de tu local o empresa.",
+      "imgs": [
+        "img/09-arreglos-empresariales-floreria-.webp"
+      ],
+      "alt": "Arreglos florales para inauguraciones — Florería María Lidia, Rafaela"
+    },
+    {
+      "cat": "empresas",
+      "name": "Eventos Institucionales",
+      "desc": "Ambientación floral para congresos, aniversarios y actos protocolares.",
       "imgs": [
         "img/15-arreglos-empresariales-floreria-.webp"
-      ]
+      ],
+      "alt": "Ambientación floral para eventos institucionales — Florería María Lidia, Rafaela"
     },
     {
       "cat": "empresas",
       "name": "Regalos Corporativos",
-      "desc": "Detalles florales con identidad para clientes y equipos de trabajo.",
-      "alt": "Regalos corporativos florales — Florería María Lidia Rafaela",
+      "desc": "Detalles florales con identidad para clientes, proveedores y equipos de trabajo.",
       "imgs": [
         "img/21-bolsa-de-regalo-negra.webp"
-      ]
+      ],
+      "alt": "Regalos corporativos florales — Florería María Lidia, Rafaela"
     }
   ]
 }

@@ -22,7 +22,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600;700&family=Montserrat:wght@300;400;500;600;700&display=swap">
-  <link rel="stylesheet" href="css/styles.css?v=13">
+  <link rel="stylesheet" href="css/styles.css?v=17">
 </head>
 <body class="subpage">
 
@@ -35,9 +35,20 @@
       </a>
       <div class="nav-links" role="list">
         <a href="index.html" style="font-weight:600">Inicio</a>
-        <a href="index.html#servicios" style="font-weight:600">Servicios</a>
+        <div class="nav-drop">
+          <a href="productos.html" style="font-weight:600">Productos
+            <svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="6 9 12 15 18 9"></polyline></svg>
+          </a>
+          <div class="nav-drop-menu" role="menu">
+            <a href="productos.html#ramos" role="menuitem">Ramos Florales</a>
+            <a href="productos.html#plantas" role="menuitem">Plantas &amp; Macetas</a>
+            <a href="productos.html#deco" role="menuitem">Deco &amp; Aromas</a>
+            <a href="productos.html#eventos" role="menuitem">Casamientos &amp; Eventos</a>
+            <a href="productos.html#condolencias" role="menuitem">Condolencias &amp; Memoriales</a>
+            <a href="productos.html#empresas" role="menuitem">Empresariales</a>
+          </div>
+        </div>
         <a href="index.html#galeria" style="font-weight:600">Galería</a>
-        <a href="productos.html" style="font-weight:600">Productos</a>
         <a href="index.html#nosotros" style="font-weight:600">Nosotros</a>
         <a href="index.html#contacto" style="font-weight:600">Contacto</a>
       </div>
@@ -50,11 +61,20 @@
 <nav class="mobile-nav" id="mobile-nav" role="dialog" aria-modal="true">
   <button class="mobile-close" id="mobile-close" aria-label="Cerrar menú">✕</button>
   <a href="index.html" class="mobile-link">Inicio</a>
-  <a href="index.html#servicios" class="mobile-link">Servicios</a>
+  <button class="mobile-toggle" id="mobileProdToggle" aria-expanded="false" aria-controls="mobileProdSub">Productos
+    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="6 9 12 15 18 9"></polyline></svg>
+  </button>
+  <div class="mobile-sub" id="mobileProdSub">
+    <a href="productos.html">Ver todo el catálogo</a>
+    <a href="productos.html#ramos">Ramos Florales</a>
+    <a href="productos.html#plantas">Plantas &amp; Macetas</a>
+    <a href="productos.html#deco">Deco &amp; Aromas</a>
+    <a href="productos.html#eventos">Casamientos &amp; Eventos</a>
+    <a href="productos.html#condolencias">Condolencias &amp; Memoriales</a>
+    <a href="productos.html#empresas">Empresariales</a>
+  </div>
   <a href="index.html#galeria" class="mobile-link">Galería</a>
-  <a href="productos.html" class="mobile-link">Productos</a>
   <a href="index.html#nosotros" class="mobile-link">Nosotros</a>
-  <a href="index.html#faq" class="mobile-link">FAQ</a>
   <a href="index.html#contacto" class="mobile-link">Contacto</a>
   <a href="https://wa.me/5493492208500?text=Hola!%20Quiero%20consultar%20sobre%20flores." class="btn btn-wapp" target="_blank" rel="noopener">Pedir por WhatsApp</a>
 </nav>
@@ -103,7 +123,7 @@
         <div class="footer-col-title">Navegación</div>
         <ul class="footer-links">
           <li><a href="index.html">Inicio</a></li>
-          <li><a href="index.html#servicios">Servicios</a></li>
+          <li><a href="productos.html">Productos</a></li>
           <li><a href="index.html#galeria">Galería</a></li>
           <li><a href="index.html#nosotros">Nosotros</a></li>
           <li><a href="index.html#como-comprar">Cómo comprar</a></li>
@@ -191,6 +211,6 @@
   <div class="lightbox-counter" id="lightboxCounter"></div>
 </div>
 
-<script src="js/main.js?v=7"></script>
-<script src="js/productos.js?v=11"></script>
+<script src="js/main.js?v=16"></script>
+<script src="js/productos.js?v=22"></script>
 </body></html>

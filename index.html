@@ -174,7 +174,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600;700&family=Montserrat:wght@300;400;500;600;700&display=swap">
-  <link rel="stylesheet" href="css/styles.css?v=13">
+  <link rel="stylesheet" href="css/styles.css?v=17">
 </head>
 <body>
 <template id="__bundler_thumbnail" data-bg-color="#F8F4EE">
@@ -203,9 +203,20 @@
       </a>
       <div class="nav-links" role="list">
         <a href="#hero" style="font-weight:600">Inicio</a>
-        <a href="#servicios" style="font-weight:600">Servicios</a>
+        <div class="nav-drop">
+          <a href="productos.html" style="font-weight:600">Productos
+            <svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="6 9 12 15 18 9"></polyline></svg>
+          </a>
+          <div class="nav-drop-menu" role="menu">
+            <a href="productos.html#ramos" role="menuitem">Ramos Florales</a>
+            <a href="productos.html#plantas" role="menuitem">Plantas &amp; Macetas</a>
+            <a href="productos.html#deco" role="menuitem">Deco &amp; Aromas</a>
+            <a href="productos.html#eventos" role="menuitem">Casamientos &amp; Eventos</a>
+            <a href="productos.html#condolencias" role="menuitem">Condolencias &amp; Memoriales</a>
+            <a href="productos.html#empresas" role="menuitem">Empresariales</a>
+          </div>
+        </div>
         <a href="#galeria" style="font-weight:600">Galería</a>
-        <a href="productos.html" style="font-weight:600">Productos</a>
         <a href="#nosotros" style="font-weight:600">Nosotros</a>
         <a href="#contacto" style="font-weight:600">Contacto</a>
       </div>
@@ -218,11 +229,20 @@
 <nav class="mobile-nav" id="mobile-nav" role="dialog" aria-modal="true">
   <button class="mobile-close" id="mobile-close" aria-label="Cerrar menú">✕</button>
   <a href="#hero" class="mobile-link">Inicio</a>
-  <a href="#servicios" class="mobile-link">Servicios</a>
+  <button class="mobile-toggle" id="mobileProdToggle" aria-expanded="false" aria-controls="mobileProdSub">Productos
+    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="6 9 12 15 18 9"></polyline></svg>
+  </button>
+  <div class="mobile-sub" id="mobileProdSub">
+    <a href="productos.html">Ver todo el catálogo</a>
+    <a href="productos.html#ramos">Ramos Florales</a>
+    <a href="productos.html#plantas">Plantas &amp; Macetas</a>
+    <a href="productos.html#deco">Deco &amp; Aromas</a>
+    <a href="productos.html#eventos">Casamientos &amp; Eventos</a>
+    <a href="productos.html#condolencias">Condolencias &amp; Memoriales</a>
+    <a href="productos.html#empresas">Empresariales</a>
+  </div>
   <a href="#galeria" class="mobile-link">Galería</a>
-  <a href="productos.html" class="mobile-link">Productos</a>
   <a href="#nosotros" class="mobile-link">Nosotros</a>
-  <a href="#faq" class="mobile-link">FAQ</a>
   <a href="#contacto" class="mobile-link">Contacto</a>
   <a href="https://wa.me/5493492208500?text=Hola!%20Quiero%20consultar%20sobre%20flores." class="btn btn-wapp" target="_blank" rel="noopener">Pedir por WhatsApp</a>
 </nav>
@@ -244,7 +264,7 @@
           <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"></path></svg>
           Consultar precios
         </a>
-        <a href="#servicios" class="btn btn-outline">Ver servicios</a>
+        <a href="productos.html" class="btn btn-outline">Ver productos</a>
       </div>
     </div>
 
@@ -288,135 +308,6 @@
       <article class="benefit-card reveal reveal-delay-4"><div class="benefit-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5Z"/></svg></div><h3 class="benefit-title">Atención personalizada</h3><p class="body-md" style="font-weight:500;">Te ayudamos a elegir el arreglo ideal según la ocasión, tu presupuesto y el mensaje que querés transmitir.</p></article>
     </div>
   </div>
-</section>
-
-<!-- SERVICES -->
-<section id="servicios" class="section" role="region" aria-labelledby="servicios-title">
-  <div class="container">
-    <div class="section-header reveal">
-      <span class="eyebrow" style="font-size:12px;">Nuestros servicios</span>
-      <h2 class="display-lg" id="servicios-title">Flores para<br>cada momento</h2>
-      <p class="body-lg" style="max-width:520px;margin-top:1rem;font-weight:500">Desde un ramo romántico hasta la decoración completa de tu evento.</p>
-    </div>
-
-    <!-- DESKTOP: grid 3x2, oculta en mobile -->
-    <div class="services-grid services-grid-desktop">
-      
-      <article class="service-card reveal reveal-delay-1" onclick="window.open('https://wa.me/5493492208500?text=Hola%2C%20me%20gustar%C3%ADa%20consultar%20por%20ramos%20florales.%20%C2%BFPodr%C3%ADan%20mostrarme%20opciones%20disponibles%20y%20valores%3F','_blank','noopener')" style="cursor:pointer;">
-        <img src="img/04-ramos-y-bouquets-floreria-maria-.webp" alt="Ramos y bouquets — Florería María Lidia Rafaela" loading="lazy">
-        <div class="service-overlay">
-          <span class="service-tag">ocasiones</span>
-          <h3 class="service-name">Ramos florales</h3>
-          <p class="service-desc">Para cumpleaños, aniversarios, declaraciones de amor y cualquier ocasión especial.</p>
-        </div>
-      </article>
-      <article class="service-card reveal reveal-delay-2" onclick="window.open('https://wa.me/5493492208500?text=Hola%2C%20me%20gustar%C3%ADa%20recibir%20informaci%C3%B3n%20para%20un%20casamiento%20o%20evento.%20%C2%BFPodr%C3%ADan%20asesorarme%3F','_blank','noopener')" style="cursor:pointer;">
-        <img src="img/05-casamientos-y-eventos-florales-f.webp" alt="Casamientos y eventos florales — Florería María Lidia Rafaela" loading="lazy">
-        <div class="service-overlay">
-          <span class="service-tag">celebraciones</span>
-          <h3 class="service-name">Casamientos &amp; Eventos</h3>
-          <p class="service-desc">Centros de mesa, arcos florales, ramos de novia y decoración integral para tu gran día.</p>
-        </div>
-      </article>
-      <article class="service-card reveal reveal-delay-3" onclick="window.open('https://wa.me/5493492208500?text=Hola%2C%20necesito%20informaci%C3%B3n%20sobre%20recordatorios%20y%20condolencias.%20%C2%BFPodr%C3%ADan%20ayudarme%3F','_blank','noopener')" style="cursor:pointer;">
-        <img src="img/06-coronas-y-condolencias-floreria-.webp" alt="Coronas y condolencias — Florería María Lidia Rafaela" loading="lazy">
-        <div class="service-overlay">
-          <span class="service-tag">Homenajes</span>
-          <h3 class="service-name">Recordatorios &amp; Condolencias</h3>
-          <p class="service-desc">Expresá tu pésame con arreglos florales dignos, elaborados con respeto y delicadeza.</p>
-        </div>
-      </article>
-      <article class="service-card reveal reveal-delay-1" onclick="window.open('https://wa.me/5493492208500?text=Hola%2C%20me%20gustar%C3%ADa%20consultar%20por%20productos%20de%20decoraci%C3%B3n%20y%20aromas%20para%20el%20hogar.%20%C2%BFQu%C3%A9%20opciones%20tienen%20disponibles%3F','_blank','noopener')" style="cursor:pointer;">
-        <img src="img/07-deco-y-aromas-para-el-hogar-flor.webp" alt="Deco y aromas para el hogar — Florería María Lidia Rafaela" loading="lazy">
-        <div class="service-overlay">
-          <span class="service-tag">Hogar</span>
-          <h3 class="service-name">Deco &amp; aromas</h3>
-          <p class="service-desc">Objetos decorativos y aromas cuidadosamente seleccionados para crear espacios cálidos y elegantes.</p>
-        </div>
-      </article>
-      <article class="service-card reveal reveal-delay-2" onclick="window.open('https://wa.me/5493492208500?text=Hola%2C%20me%20gustar%C3%ADa%20conocer%20las%20opciones%20de%20plantas%20y%20macetas%20disponibles.%20%C2%BFPodr%C3%ADan%20enviarme%20informaci%C3%B3n%3F','_blank','noopener')" style="cursor:pointer;">
-        <img src="img/08-flores-y-plantas-floreria-maria-.webp" alt="Flores y plantas — Florería María Lidia Rafaela" loading="lazy">
-        <div class="service-overlay">
-          <span class="service-tag">INTERIOR &amp; EXTERIOR</span>
-          <h3 class="service-name">Plantas &amp; Macetas</h3>
-          <p class="service-desc">Plantas de interior y exterior, macetas decorativas y opciones ideales para regalar o dar vida a cualquier espacio.</p>
-        </div>
-      </article>
-      <article class="service-card reveal reveal-delay-3" onclick="window.open('https://wa.me/5493492208500?text=Hola%2C%20me%20gustar%C3%ADa%20recibir%20informaci%C3%B3n%20sobre%20arreglos%20empresariales%20para%20regalos%20corporativos%20o%20empresas.','_blank','noopener')" style="cursor:pointer;">
-        <img src="img/09-arreglos-empresariales-floreria-.webp" alt="Arreglos empresariales — Florería María Lidia Rafaela" loading="lazy">
-        <div class="service-overlay">
-          <span class="service-tag">corporativo</span>
-          <h3 class="service-name">Arreglos Empresariales</h3>
-          <p class="service-desc">Flores para recepciones, lanzamientos y regalos corporativos con identidad.</p>
-        </div>
-      </article>
-    </div>
-  </div>
-
-  <!-- MOBILE: carrusel, oculto en desktop -->
-  <div class="sc-root" id="servicesCarousel" aria-label="Carrusel de servicios">
-    <div class="sc-viewport">
-      <div class="sc-track" id="scTrack">
-        
-        <div class="sc-slide" data-index="0" onclick="window.open('https://wa.me/5493492208500?text=Hola%2C%20me%20gustar%C3%ADa%20consultar%20por%20ramos%20florales.%20%C2%BFPodr%C3%ADan%20mostrarme%20opciones%20disponibles%20y%20valores%3F','_blank','noopener')" style="cursor:pointer;">
-          <img src="img/10-ramos-y-bouquets-floreria-maria-.webp" alt="Ramos y bouquets — Florería María Lidia Rafaela" loading="lazy">
-          <div class="sc-card-info">
-            <span class="sc-tag">ocasiones</span>
-            <h3 class="sc-name">Ramos florales</h3>
-            <p class="sc-desc">Para cumpleaños, aniversarios, declaraciones de amor y cualquier ocasión especial.</p>
-          </div>
-        </div>
-        <div class="sc-slide" data-index="1" onclick="window.open('https://wa.me/5493492208500?text=Hola%2C%20me%20gustar%C3%ADa%20recibir%20informaci%C3%B3n%20para%20un%20casamiento%20o%20evento.%20%C2%BFPodr%C3%ADan%20asesorarme%3F','_blank','noopener')" style="cursor:pointer;">
-          <img src="img/11-casamientos-y-eventos-florales-f.webp" alt="Casamientos y eventos florales — Florería María Lidia Rafaela" loading="lazy">
-          <div class="sc-card-info">
-            <span class="sc-tag">celebraciones</span>
-            <h3 class="sc-name">Casamientos &amp; Eventos</h3>
-            <p class="sc-desc">Centros de mesa, arcos florales, ramos de novia y decoración integral para tu gran día.</p>
-          </div>
-        </div>
-        <div class="sc-slide" data-index="2" onclick="window.open('https://wa.me/5493492208500?text=Hola%2C%20necesito%20informaci%C3%B3n%20sobre%20recordatorios%20y%20condolencias.%20%C2%BFPodr%C3%ADan%20ayudarme%3F','_blank','noopener')" style="cursor:pointer;">
-          <img src="img/12-coronas-y-condolencias-floreria-.webp" alt="Coronas y condolencias — Florería María Lidia Rafaela" loading="lazy">
-          <div class="sc-card-info">
-            <span class="sc-tag">Homenajes</span>
-            <h3 class="sc-name">Recordatorios &amp; Condolencias</h3>
-            <p class="sc-desc">Expresá tu pésame con arreglos florales dignos, elaborados con respeto y delicadeza.</p>
-          </div>
-        </div>
-        <div class="sc-slide" data-index="3" onclick="window.open('https://wa.me/5493492208500?text=Hola%2C%20me%20gustar%C3%ADa%20consultar%20por%20productos%20de%20decoraci%C3%B3n%20y%20aromas%20para%20el%20hogar.%20%C2%BFQu%C3%A9%20opciones%20tienen%20disponibles%3F','_blank','noopener')" style="cursor:pointer;">
-          <img src="img/13-deco-y-aromas-para-el-hogar-flor.webp" alt="Deco y aromas para el hogar — Florería María Lidia Rafaela" loading="lazy">
-          <div class="sc-card-info">
-            <span class="sc-tag">Hogar</span>
-            <h3 class="sc-name">Deco &amp; aromas</h3>
-            <p class="sc-desc">Objetos decorativos y aromas cuidadosamente seleccionados para crear espacios cálidos y elegantes.</p>
-          </div>
-        </div>
-        <div class="sc-slide" data-index="4" onclick="window.open('https://wa.me/5493492208500?text=Hola%2C%20me%20gustar%C3%ADa%20conocer%20las%20opciones%20de%20plantas%20y%20macetas%20disponibles.%20%C2%BFPodr%C3%ADan%20enviarme%20informaci%C3%B3n%3F','_blank','noopener')" style="cursor:pointer;">
-          <img src="img/14-flores-y-plantas-floreria-maria-.webp" alt="Flores y plantas — Florería María Lidia Rafaela" loading="lazy">
-          <div class="sc-card-info">
-            <span class="sc-tag">INTERIOR &amp; EXTERIOR</span>
-            <h3 class="sc-name">Plantas &amp; Macetas</h3>
-            <p class="sc-desc">Plantas de interior y exterior, macetas decorativas y opciones ideales para regalar o dar vida a cualquier espacio.</p>
-          </div>
-        </div>
-        <div class="sc-slide" data-index="5" onclick="window.open('https://wa.me/5493492208500?text=Hola%2C%20me%20gustar%C3%ADa%20recibir%20informaci%C3%B3n%20sobre%20arreglos%20empresariales%20para%20regalos%20corporativos%20o%20empresas.','_blank','noopener')" style="cursor:pointer;">
-          <img src="img/15-arreglos-empresariales-floreria-.webp" alt="Arreglos empresariales — Florería María Lidia Rafaela" loading="lazy">
-          <div class="sc-card-info">
-            <span class="sc-tag">corporativo</span>
-            <h3 class="sc-name">Arreglos Empresariales</h3>
-            <p class="sc-desc">Flores para recepciones, lanzamientos y regalos corporativos con identidad.</p>
-          </div>
-        </div>
-      </div>
-    </div>
-    <button class="sc-arrow sc-arrow-prev" id="scPrev" aria-label="Servicio anterior">
-      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="15 18 9 12 15 6"></polyline></svg>
-    </button>
-    <button class="sc-arrow sc-arrow-next" id="scNext" aria-label="Siguiente servicio">
-      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 6 15 12 9 18"></polyline></svg>
-    </button>
-    <div class="sc-dots" id="scDots" role="tablist"></div>
-  </div>
-
 </section>
 
 <!-- GALLERY -->
@@ -505,7 +396,7 @@
         <span class="eyebrow">Nuestra historia</span>
         <h2 class="display-lg" id="nosotros-title" style="margin:.75rem 0 1.25rem;">Desde 1991<br>regalando belleza<br>en Rafaela</h2>
         <p class="body-lg" style="margin-bottom:1.25rem;font-weight:500;">Florería María Lidia nació el 9 de diciembre de 1991, cuando Lidia Ester Valvo convirtió un pequeño garaje familiar en el comienzo de un gran sueño: acercar la belleza de las flores a cada hogar de Rafaela. Con una mirada innovadora para la época, fue pionera en la ciudad al introducir los bouquets de flores mixtas y nuevas técnicas de arte floral, transformando la forma de regalar flores.</p>
-        <p class="body-lg" style="margin-bottom:2rem;font-weight:500;">El crecimiento fue tal que en 2001 nos instalamos en nuestro local de Lavalle 48, frente a la Plaza 25 de Mayo. Hoy ese legado sigue vivo en manos de María Lidia (“Marilí”) y su familia, con los mismos valores del primer día.</p>
+        <p class="body-lg" style="margin-bottom:2rem;font-weight:500;">El crecimiento fue tal que en 2001 nos instalamos en nuestro local de Lavalle 48, frente a la Plaza 25 de Mayo. Hoy ese legado sigue vivo en manos de su hija María Lidia (“Marilí”) y su familia, con los mismos valores del primer día.</p>
       </div>
     </div>
   </div>
@@ -606,7 +497,7 @@
         <div class="footer-col-title">Navegación</div>
         <ul class="footer-links">
           <li><a href="#hero">Inicio</a></li>
-          <li><a href="#servicios">Servicios</a></li>
+          <li><a href="productos.html">Productos</a></li>
           <li><a href="#galeria">Galería</a></li>
           <li><a href="#nosotros">Nosotros</a></li>
           <li><a href="#como-comprar">Cómo comprar</a></li>
@@ -697,5 +588,5 @@
 
 
 
-<script src="js/main.js?v=7"></script>
+<script src="js/main.js?v=16"></script>
 </body></html>
