@@ -1,5 +1,6 @@
 {
-  "_ayuda": "Para agregar, modificar o eliminar productos editá SOLO este archivo. Campos: cat (clave de 'categorias'), name (nombre — aparece en la tarjeta y en el mensaje de WhatsApp), desc (descripción breve), imgs (LISTA de imágenes: la primera es la portada de la tarjeta; al ampliar se recorren todas con flechas), alt (texto alternativo para SEO).",
+  "_ayuda": "Para agregar, modificar o eliminar productos editá SOLO este archivo. Campos: cat (clave de 'categorias'), name (nombre — aparece en la tarjeta y en el mensaje de WhatsApp), desc (descripción breve), imgs (LISTA de imágenes: la primera es la portada de la tarjeta; al ampliar se recorren todas con flechas), alt (texto alternativo para SEO). El campo 'sitio' es el dominio que se usa para armar el link de la foto que viaja en el mensaje de WhatsApp.",
+  "sitio": "https://www.floreriamarialidia.com.ar/",
   "whatsapp": "5493492208500",
   "categorias": {
     "ramos": "Ramos Florales",
