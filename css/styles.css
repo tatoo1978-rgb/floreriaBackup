@@ -1132,3 +1132,17 @@
     animation: none !important;
   }
 }
+
+    .nav-links > a, .nav-drop > a{font-weight:600}
+
+    /* ── CONTACTO: tarjeta de datos ── */    .contact-card{background:var(--white);border-radius:var(--radius-md);box-shadow:var(--shadow-card);padding:2rem}
+    .contact-list{display:flex;flex-direction:column;gap:1.1rem}
+    .contact-row{display:flex;gap:.7rem;align-items:center}
+    .contact-row.top{align-items:flex-start}
+    .contact-row>svg{flex-shrink:0;color:var(--sage)}
+    .contact-row.top>svg{margin-top:3px}
+    .contact-row a{text-decoration:none}
+    .contact-sep{height:1px;background:rgba(46,46,46,.08);margin:.2rem 0}
+    .contact-hours strong{color:var(--dark);font-weight:600}
+    .btn-block{width:100%;justify-content:center}
+    .steps-cta .btn,.contact-card .btn{font-size:1rem;padding:1rem 2.5rem}
