@@ -113,7 +113,8 @@
     
     /* HOW TO BUY */
     #como-comprar{background:var(--cream)}
-    .steps-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:1.25rem;margin-top:3.5rem;align-items:stretch}
+    .steps-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(215px,1fr));gap:1.25rem;margin-top:3.5rem;align-items:stretch}
+    @media (min-width:1080px){.steps-grid{grid-template-columns:repeat(4,1fr)}}
     .step{background:var(--white);border:1px solid #E7DFD5;border-radius:var(--radius-md);padding:2rem 1.6rem 1.9rem;display:flex;flex-direction:column;gap:.9rem;text-align:left}
     .step-head{display:flex;align-items:center;gap:.8rem}
     .step-num{width:44px;height:44px;flex-shrink:0;background:var(--sage-dark);color:var(--white);font-family:var(--font-display);font-size:1.25rem;font-weight:700;border-radius:50%;display:flex;align-items:center;justify-content:center}
