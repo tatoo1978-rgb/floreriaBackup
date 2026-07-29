@@ -893,6 +893,7 @@
 
     /* ── PRODUCTOS DESTACADOS ── */
     #productos{background:var(--white)}
+    body:not(.subpage) #productos{background:var(--beige)}
     /* Banner de acceso al catálogo (home) */
     .products-teaser{position:relative;display:block;border-radius:var(--radius-lg);overflow:hidden;min-height:440px;text-decoration:none;box-shadow:var(--shadow-card)}
     .products-teaser img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;transition:transform .6s ease}
