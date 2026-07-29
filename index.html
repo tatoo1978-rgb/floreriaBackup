@@ -46,6 +46,11 @@
     "logo": "https://www.floreriamarialidia.com.ar/img/01-maria-lidia-flores.webp",
     "hasMap": "https://www.google.com/maps/search/?api=1&query=Lavalle+48%2C+Rafaela%2C+Santa+Fe",
     "priceRange": "$$",
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "ratingValue": "4.5",
+      "reviewCount": "34"
+    },
     "address": {
       "@type": "PostalAddress",
       "streetAddress": "Lavalle 48",
@@ -104,16 +109,9 @@
   }
   </script>
   <!-- ════════════════════════════════════════════════════════════════
-       aggregateRating: NO completar con números inventados.
-       Google penaliza reseñas falsas. Cuando tengas tu rating real de
-       Google Business Profile, agregá este bloque DENTRO del JSON-LD de
-       arriba (p. ej. justo después de "priceRange"), con tus datos reales:
-
-         "aggregateRating": {
-           "@type": "AggregateRating",
-           "ratingValue": "4.9",      ← tu promedio real
-           "reviewCount": "127"        ← cantidad real de reseñas
-         },
+       aggregateRating: valores REALES de Google Business (4,5 · 34 reseñas),
+       agregados arriba después de "priceRange". Al crecer las reseñas,
+       actualizá ratingValue y reviewCount acá y en la sección visible #resenas.
   ═════════════════════════════════════════════════════════════════════ -->
   <script type="application/ld+json">
   {
@@ -182,7 +180,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600;700&family=Montserrat:wght@300;400;500;600;700&display=swap">
-  <link rel="stylesheet" href="css/styles.css?v=29">
+  <link rel="stylesheet" href="css/styles.css?v=30">
 </head>
 <body>
 <!-- HEADER -->
@@ -209,6 +207,7 @@
         </div>
         <a href="#galeria">Galería</a>
         <a href="#nosotros">Nosotros</a>
+        <a href="#resenas">Reseñas</a>
         <a href="#contacto">Contacto</a>
       </div>
       <button class="hamburger" id="hamburger" aria-label="Abrir menú" aria-expanded="false" aria-controls="mobile-nav">
@@ -234,6 +233,7 @@
   </div>
   <a href="#galeria" class="mobile-link">Galería</a>
   <a href="#nosotros" class="mobile-link">Nosotros</a>
+  <a href="#resenas" class="mobile-link">Reseñas</a>
   <a href="#contacto" class="mobile-link">Contacto</a>
   <a href="https://wa.me/5493492208500?text=Hola!%20Quer%C3%ADa%20hacerles%20una%20consulta." class="btn btn-wapp" target="_blank" rel="noopener">Pedir por WhatsApp</a>
 </nav>
@@ -397,6 +397,32 @@
 
 
 
+
+<!-- RESEÑAS -->
+<section id="resenas" class="section" role="region" aria-labelledby="resenas-title">
+  <div class="container">
+    <div class="section-header text-center reveal">
+      <span class="eyebrow">Lo que dicen nuestros clientes</span>
+      <h2 class="display-lg" id="resenas-title">La confianza de<br>Rafaela desde 1991</h2>
+    </div>
+    <div class="resenas-box reveal reveal-delay-2">
+      <span class="resenas-num">4,5</span>
+      <div class="resenas-stars" role="img" aria-label="Calificación 4,5 de 5 estrellas">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+        <svg viewBox="0 0 24 24" aria-hidden="true"><defs><linearGradient id="starHalf"><stop offset="50%" stop-color="currentColor"/><stop offset="50%" stop-color="#E0D9CE"/></linearGradient></defs><path fill="url(#starHalf)" d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+      </div>
+      <p class="resenas-count">Basado en 34 reseñas en Google</p>
+      <p class="body-md resenas-text">Más de tres décadas acompañando a las familias de Rafaela. Tu opinión nos ayuda a seguir creciendo y a que más personas nos conozcan.</p>
+      <div class="resenas-cta">
+        <a href="https://www.google.com/search?q=floreria+maria+lidia#lrd=0x95caae3808a46f5d:0xaa7cf54290827578,1,,,," target="_blank" rel="noopener" class="btn btn-outline">Ver reseñas en Google</a>
+        <a href="https://www.google.com/search?q=floreria+maria+lidia#lrd=0x95caae3808a46f5d:0xaa7cf54290827578,3,,,," target="_blank" rel="noopener" class="btn btn-primary">Dejá tu reseña</a>
+      </div>
+    </div>
+  </div>
+</section>
 
 <!-- FAQ -->
 <section id="faq" class="section" role="region" aria-labelledby="faq-title">
