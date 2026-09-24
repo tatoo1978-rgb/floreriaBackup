@@ -15,7 +15,7 @@
   if (!grid || !filters) return;
 
   /* ── Carga del catálogo ── */
-  fetch("js/catalogo.json?v=26")
+  fetch("js/catalogo.json?v=27")
     .then(function (r) {
       if (!r.ok) throw new Error("No se pudo cargar catalogo.json");
       return r.json();
@@ -48,7 +48,7 @@
       card.className = "product-card reveal reveal-delay-" + ((i % 3) + 1);
       card.innerHTML =
         '<div class="product-media" role="button" tabindex="0" aria-label="Ampliar imagen de ' + p.name + '">' +
-          '<img src="' + p.imgs[0] + '" alt="' + p.alt + '" loading="lazy">' +
+          '<img src="' + (p.cover || p.imgs[0]) + '" alt="' + p.alt + '" loading="lazy">' +
         "</div>" +
         '<div class="product-info">' +
           '<span class="product-cat">' + CATEGORIAS[p.cat] + "</span>" +

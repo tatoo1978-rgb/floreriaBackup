@@ -45,11 +45,16 @@
     {
       "cat": "plantas",
       "name": "Plantas de Interior",
-      "desc": "Orquídeas, gomeros, panderetas, arecas y palmeras, calatheas, philodendros, potus y bambúes.",
+      "desc": "Orquídeas, gomeros, panduratas, arecas y palmeras, calatheas, philodendros, potus y bambúes.",
       "imgs": [
-        "img/18-plantas-de-interior-ficus-lyrata.webp",
-        "img/28-plantas-de-interior-en-macetas.webp",
-        "img/30-planta-colgante.webp"
+        "img/51-plantas-de-interior-floreria-maria-lidia.webp",
+        "img/52-plantas-de-interior-floreria-maria-lidia.webp",
+        "img/53-plantas-de-interior-floreria-maria-lidia.webp",
+        "img/54-plantas-de-interior-floreria-maria-lidia.webp",
+        "img/55-plantas-de-interior-floreria-maria-lidia.webp",
+        "img/56-plantas-de-interior-floreria-maria-lidia.webp",
+        "img/57-plantas-de-interior-floreria-maria-lidia.webp",
+        "img/58-plantas-de-interior-floreria-maria-lidia.webp"
       ],
       "alt": "Plantas de interior — Florería María Lidia, Rafaela"
     },
@@ -93,12 +98,12 @@
       "cat": "deco",
       "name": "Velas Naturales",
       "desc": "<strong>Lovely George</strong>, la primera marca argentina de Luxury Candles: líneas Pure, Ámbar Caramelo y Campana, con alta perfumería.",
+      "cover": "img/velas-06-amber-peonies-portada.webp",
       "imgs": [
-        "img/19-velas-y-home-spray-en-el-local.webp",
-        "img/velas-01-campana-oro.webp",
+        "img/velas-06-amber-peonies-lovely-george.webp",
         "img/velas-02-campana-blanca.webp",
-        "img/velas-03-pure-negra.webp",
-        "img/velas-04-pure-blanca.webp"
+        "img/velas-05-campana-dorada-lovely-george.webp",
+        "img/velas-03-pure-negra.webp"
       ],
       "alt": "Velas naturales Lovely George — Florería María Lidia, Rafaela"
     },
@@ -107,7 +112,7 @@
       "name": "Velas LED",
       "desc": "La calidez de la llama sin fuego: seguras para cualquier ambiente y de larga duración.",
       "imgs": [
-        "img/velas-04-pure-blanca.webp"
+        "img/59-velas-led-floreria-maria-lidia.webp"
       ],
       "alt": "Velas LED decorativas — Florería María Lidia, Rafaela"
     },
