@@ -26,8 +26,7 @@
       "name": "Bouquets Especiales",
       "desc": "Diseños XL y composiciones pensadas para fechas especiales y regalos memorables.",
       "imgs": [
-        "img/03-ramo-artesanal-de-lisianthus-bla.webp",
-        "img/29-ramos-artesanales-de-floreria-ma.webp"
+        "img/82-bouquet-especial-floreria-maria-lidia.webp"
       ],
       "alt": "Bouquet especial XL de flores — Florería María Lidia, Rafaela"
     },
@@ -36,9 +35,10 @@
       "name": "Ramos de Rosas",
       "desc": "Rosas frescas seleccionadas. Por unidad, 3, 6 o 12, envueltas en papel artesanal.",
       "imgs": [
-        "img/31-ramo-de-rosas-rosadas.webp",
-        "img/23-ramo-con-rosa-roja-envuelto-en-p.webp",
-        "img/20-rosas-rojas-frescas-en-primer-pl.webp"
+        "img/83-ramo-de-1-rosa-floreria-maria-lidia.webp",
+        "img/84-ramo-de-3-rosas-floreria-maria-lidia.webp",
+        "img/85-ramo-de-6-rosas-floreria-maria-lidia.webp",
+        "img/86-ramo-de-12-rosas-floreria-maria-lidia.webp"
       ],
       "alt": "Ramo de rosas — Florería María Lidia, Rafaela"
     },
@@ -72,7 +72,10 @@
       "name": "Macetas de Cerámica Esmaltada",
       "desc": "Terminación brillante en varios colores para sumar carácter a cada rincón.",
       "imgs": [
-        "img/08-flores-y-plantas-floreria-maria-.webp"
+        "img/71-macetas-ceramica-esmaltada-floreria-maria-lidia.webp",
+        "img/72-macetas-ceramica-esmaltada-floreria-maria-lidia.webp",
+        "img/73-macetas-ceramica-esmaltada-floreria-maria-lidia.webp",
+        "img/74-macetas-ceramica-esmaltada-floreria-maria-lidia.webp"
       ],
       "alt": "Macetas de cerámica esmaltada — Florería María Lidia, Rafaela"
     },
@@ -112,16 +115,18 @@
       "name": "Velas LED",
       "desc": "La calidez de la llama sin fuego: seguras para cualquier ambiente y de larga duración.",
       "imgs": [
-        "img/59-velas-led-floreria-maria-lidia.webp"
+        "img/59-velas-led-floreria-maria-lidia.webp",
+        "img/60-velas-led-floreria-maria-lidia.webp"
       ],
       "alt": "Velas LED decorativas — Florería María Lidia, Rafaela"
     },
     {
       "cat": "deco",
       "name": "Difusores de Ambiente",
-      "desc": "Difusores de <strong>Lovely George</strong>: alta perfumería que envuelve el ambiente de forma constante y discreta.",
+      "desc": "Encuentra el lujo imponente de <strong>Privé La Vie</strong> y la alta perfumería de <strong>Lovely George</strong> que envuelve el ambiente de forma constante y discreta.",
       "imgs": [
-        "img/07-deco-y-aromas-para-el-hogar-flor.webp"
+        "img/62-difusor-sara-rose-prive-la-vie.webp",
+        "img/61-difusor-lovely-george-floreria-maria-lidia.webp"
       ],
       "alt": "Difusores de ambiente — Florería María Lidia, Rafaela"
     },
@@ -130,7 +135,8 @@
       "name": "Floreros e Hidroterrarios",
       "desc": "Piezas de vidrio para lucir tus flores o cultivar plantas en agua.",
       "imgs": [
-        "img/17-ramo-de-gerberas-rosas-y-rosas-r.webp"
+        "img/63-hidroterrarios-con-raices-floreria-maria-lidia.webp",
+        "img/61-floreros-de-vidrio-floreria-maria-lidia.webp"
       ],
       "alt": "Floreros e hidroterrarios — Florería María Lidia, Rafaela"
     },
@@ -139,7 +145,8 @@
       "name": "Fanales",
       "desc": "Portavelas de vidrio que crean una luz cálida y envolvente.",
       "imgs": [
-        "img/velas-01-campana-oro.webp"
+        "img/69-fanales-de-vidrio-ahumado-floreria-maria-lidia.webp",
+        "img/70-fanales-base-negra-floreria-maria-lidia.webp"
       ],
       "alt": "Fanales decorativos — Florería María Lidia, Rafaela"
     },
@@ -148,7 +155,9 @@
       "name": "Bandejas / Cerámica",
       "desc": "Objetos decorativos y utilitarios seleccionados para vestir la mesa y el living.",
       "imgs": [
-        "img/13-deco-y-aromas-para-el-hogar-flor.webp"
+        "img/64-bandeja-ceramica-artesanal-floreria-maria-lidia.webp",
+        "img/65-bandejas-ceramica-apiladas-floreria-maria-lidia.webp",
+        "img/66-bandejas-rattan-madera-floreria-maria-lidia.webp"
       ],
       "alt": "Bandejas y cerámica decorativa — Florería María Lidia, Rafaela"
     },
@@ -157,9 +166,10 @@
       "name": "Flores Preservadas",
       "desc": "Belleza natural que dura años, sin agua ni mantenimiento.",
       "imgs": [
+        "img/68-ramos-de-flores-preservadas-floreria-maria-lidia.webp",
         "img/24-ramo-de-flores-secas-en-tonos-ca.webp",
         "img/35-canasto-de-flores-secas.webp",
-        "img/27-ramo-de-flores-secas-en-estanter.webp"
+        "img/67-flores-preservadas-sobre-mesa-floreria-maria-lidia.webp"
       ],
       "alt": "Flores preservadas — Florería María Lidia, Rafaela"
     },
@@ -168,7 +178,9 @@
       "name": "Ramos de Novia",
       "desc": "Diseñados junto a vos, en armonía con el vestido y el estilo de la celebración.",
       "imgs": [
-        "img/26-ramo-blanco-de-flores-frescas.webp"
+        "img/75-ramo-de-novia-calas-floreria-maria-lidia.webp",
+        "img/76-ramo-de-novia-calas-floreria-maria-lidia.webp",
+        "img/77-ramo-de-novia-calas-floreria-maria-lidia.webp"
       ],
       "alt": "Ramo de novia — Florería María Lidia, Rafaela"
     },
@@ -186,7 +198,10 @@
       "name": "Ambientación Floral",
       "desc": "Centros de mesa, arcos y decoración integral para casamientos y eventos.",
       "imgs": [
-        "img/11-casamientos-y-eventos-florales-f.webp"
+        "img/80-ambientacion-floral-eventos-floreria-maria-lidia.webp",
+        "img/78-ambientacion-floral-eventos-floreria-maria-lidia.webp",
+        "img/79-ambientacion-floral-eventos-floreria-maria-lidia.webp",
+        "img/81-ambientacion-floral-eventos-floreria-maria-lidia.webp"
       ],
       "alt": "Ambientación floral para eventos — Florería María Lidia, Rafaela"
     },
