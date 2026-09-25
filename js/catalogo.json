@@ -63,7 +63,10 @@
       "name": "Macetas Rotomoldeadas",
       "desc": "Livianas y resistentes a la intemperie, ideales para exterior y grandes formatos.",
       "imgs": [
-        "img/28-plantas-de-interior-en-macetas.webp"
+        "img/92-macetas-rotomoldeada-pino-floreria-maria-lidia.webp",
+        "img/93-macetas-rotomoldeadas-colores-floreria-maria-lidia.webp",
+        "img/94-macetas-rotomoldeada-cacao-floreria-maria-lidia.webp",
+        "img/95-macetas-rotomoldeadas-arena-negro-floreria-maria-lidia.webp"
       ],
       "alt": "Macetas rotomoldeadas — Florería María Lidia, Rafaela"
     },
@@ -84,7 +87,10 @@
       "name": "Macetas de Metal",
       "desc": "Líneas simples y acabado contemporáneo para espacios de estilo moderno.",
       "imgs": [
-        "img/14-flores-y-plantas-floreria-maria-.webp"
+        "img/90-macetas-de-metal-rhoda-colores-floreria-maria-lidia.webp",
+        "img/88-maceta-de-metal-rhoda-verde-floreria-maria-lidia.webp",
+        "img/91-maceta-de-metal-rhoda-bordo-floreria-maria-lidia.webp",
+        "img/89-maceta-de-metal-rhoda-medidas-floreria-maria-lidia.webp"
       ],
       "alt": "Macetas de metal — Florería María Lidia, Rafaela"
     },
@@ -136,7 +142,8 @@
       "desc": "Piezas de vidrio para lucir tus flores o cultivar plantas en agua.",
       "imgs": [
         "img/63-hidroterrarios-con-raices-floreria-maria-lidia.webp",
-        "img/61-floreros-de-vidrio-floreria-maria-lidia.webp"
+        "img/61-floreros-de-vidrio-floreria-maria-lidia.webp",
+        "img/98-hidroterrario-alocasia-floreria-maria-lidia.webp"
       ],
       "alt": "Floreros e hidroterrarios — Florería María Lidia, Rafaela"
     },
@@ -178,6 +185,7 @@
       "name": "Ramos de Novia",
       "desc": "Diseñados junto a vos, en armonía con el vestido y el estilo de la celebración.",
       "imgs": [
+        "img/05-casamientos-y-eventos-florales-f.webp",
         "img/75-ramo-de-novia-calas-floreria-maria-lidia.webp",
         "img/76-ramo-de-novia-calas-floreria-maria-lidia.webp",
         "img/77-ramo-de-novia-calas-floreria-maria-lidia.webp"
@@ -189,7 +197,8 @@
       "name": "Boutonnière",
       "desc": "El detalle floral para el novio, padrinos y testigos, a tono con el ramo.",
       "imgs": [
-        "img/05-casamientos-y-eventos-florales-f.webp"
+        "img/96-boutonniere-en-solapa-floreria-maria-lidia.webp",
+        "img/97-boutonniere-sobre-lino-floreria-maria-lidia.webp"
       ],
       "alt": "Boutonnière para casamiento — Florería María Lidia, Rafaela"
     },
@@ -198,7 +207,7 @@
       "name": "Ambientación Floral",
       "desc": "Centros de mesa, arcos y decoración integral para casamientos y eventos.",
       "imgs": [
-        "img/80-ambientacion-floral-eventos-floreria-maria-lidia.webp",
+        "img/100-ambientacion-floral-centro-de-mesa-floreria-maria-lidia.webp",
         "img/78-ambientacion-floral-eventos-floreria-maria-lidia.webp",
         "img/79-ambientacion-floral-eventos-floreria-maria-lidia.webp",
         "img/81-ambientacion-floral-eventos-floreria-maria-lidia.webp"
