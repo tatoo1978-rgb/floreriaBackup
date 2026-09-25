@@ -141,9 +141,9 @@
       "name": "Floreros e Hidroterrarios",
       "desc": "Piezas de vidrio para lucir tus flores o cultivar plantas en agua.",
       "imgs": [
+        "img/98-hidroterrario-alocasia-floreria-maria-lidia.webp",
         "img/63-hidroterrarios-con-raices-floreria-maria-lidia.webp",
-        "img/61-floreros-de-vidrio-floreria-maria-lidia.webp",
-        "img/98-hidroterrario-alocasia-floreria-maria-lidia.webp"
+        "img/61-floreros-de-vidrio-floreria-maria-lidia.webp"
       ],
       "alt": "Floreros e hidroterrarios — Florería María Lidia, Rafaela"
     },
@@ -247,7 +247,9 @@
       "name": "Inauguraciones",
       "desc": "Arreglos de gran porte para acompañar la apertura de tu local o empresa.",
       "imgs": [
-        "img/09-arreglos-empresariales-floreria-.webp"
+        "img/103-inauguraciones-arreglo-en-florero-alheli-blanco-floreria-maria-lidia.webp",
+        "img/104-inauguraciones-arreglo-en-florero-lisianthus-violeta-floreria-maria-lidia.webp",
+        "img/102-inauguraciones-ramo-lilium-y-lisianthus-rosa-floreria-maria-lidia.webp"
       ],
       "alt": "Arreglos florales para inauguraciones — Florería María Lidia, Rafaela"
     },
@@ -256,7 +258,7 @@
       "name": "Eventos Institucionales",
       "desc": "Ambientación floral para congresos, aniversarios y actos protocolares.",
       "imgs": [
-        "img/15-arreglos-empresariales-floreria-.webp"
+        "img/101-arreglo-floral-evento-institucional-floreria-maria-lidia.webp"
       ],
       "alt": "Ambientación floral para eventos institucionales — Florería María Lidia, Rafaela"
     },
